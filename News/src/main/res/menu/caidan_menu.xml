@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--选择一个，单一的-->
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/news" android:title="新闻" android:icon="@android:drawable/ic_menu_manage"></item>
+        <item android:id="@+id/img" android:title="图片" android:icon="@android:drawable/ic_menu_gallery"></item>
+        <item android:id="@+id/weather" android:title="天气" android:icon="@drawable/bj"></item>
+
+    </group>
+    <item android:title="其它">
+        <menu>
+            <item
+                android:id="@+id/nav_bgmic"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="背景音效" />
+            <item
+                android:id="@+id/nav_night"
+                android:icon="@android:drawable/ic_menu_send"
+                android:title="夜间模式" />
+        </menu>
+    </item>
+
+</menu>
